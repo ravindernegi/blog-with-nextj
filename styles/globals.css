@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+header ul,
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background: rgb(211, 211, 211);
+}
+header ul li,
+footer ul li {
+  margin: 8px;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background: #333;
+  padding: 20px;
+}
+footer ul li,
+footer ul li a {
+  color: #fff;
+}
