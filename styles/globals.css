@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #333;
 }
 
 a {
@@ -12,6 +13,7 @@ a {
 }
 
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 header ul,
@@ -21,14 +23,22 @@ footer ul {
   align-items: center;
 }
 header {
-  background: rgb(211, 211, 211);
+  background: rgb(85, 8, 140);
+}
+header ul,
+footer ul {
+  list-style: none;
 }
 header ul li,
 footer ul li {
+  color: #fff;
   margin: 8px;
 }
+
 main {
+  min-height: 500px;
   padding: 20px;
+  background-color: #fff;
 }
 footer {
   background: #333;
@@ -37,4 +47,22 @@ footer {
 footer ul li,
 footer ul li a {
   color: #fff;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col {
 }

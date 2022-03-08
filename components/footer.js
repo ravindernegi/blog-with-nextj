@@ -1,7 +1,12 @@
 export default function Footer() {
   return (
     <>
-      <p style={{ textAlign: 'center' }}>Footer</p>
+      <footer>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </footer>
     </>
   );
 }

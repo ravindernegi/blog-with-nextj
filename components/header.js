@@ -1,7 +1,12 @@
 export default function Header() {
   return (
     <>
-      <p style={{ textAlign: 'center' }}>Header</p>
+      <header>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </header>
     </>
   );
 }
