@@ -61,8 +61,24 @@ p {
 }
 .row {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 .col {
+  background: #e8e8e8;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 0 34%;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .row {
+    display: block;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1190px) {
+  .container {
+    width: 100%;
+  }
 }
